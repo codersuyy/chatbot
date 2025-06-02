@@ -3,7 +3,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
-FILENAME = os.path.join(DATA_DIR, "knowledge.txt")
+FILENAME = os.path.join(DATA_DIR, "knowledge.json")
 
 def load_knowledge():
     if os.path.exists(FILENAME):
