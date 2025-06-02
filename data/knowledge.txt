@@ -1,0 +1,4 @@
+{
+  "hello": "How can i help you to day",
+  "hi": "Hi! How can i help you today"
+}
